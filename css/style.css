@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300&family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.center{
+height: 100vh;
+display: flex;
+flex-direction: column;justify-content: center;
+ /* border: 2px solid purple;  */
+text-align: center;
+background-color: indianred;
+
+
+
+}
+
+.center h2{
+    margin-bottom: 0.5em;
+font-family:lobster;
+
+}
+
+
+
+
+.phrase-enter{padding: 1em;
+    border-radius:5px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    
+    
+
+
+}
+
+.content{
+
+    box-shadow: 0 0 5px blueviolet;
+    padding: 5em;
+    background-color: rosybrown;
+    
+}
+
+.content p{
+margin-bottom: 1em;
+
+
+}
+.btn{
+
+    padding: 1.5em 3em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    background-color:forestgreen;
+    color:#fff;
+cursor: pointer;
+}
+
+.btn :hover{
+    /* background-color: darkgreen; */
+    transition:all .5s ease-in;
+
+}
+
+#message{
+    font-size: 2rem;
+    padding: 0.5em;
+}
+
+#error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+
+.fail{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
